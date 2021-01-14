@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of css reset*/
+
+body{
+    font-family:'Roboto Mono', serif;
+    
+}
+.top{
+    margin: 5%;
+}
+
+nav{
+    display: block;
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+}
+.visit{
+    background-color:#FF764E;
+    border-radius:15%;
+    border: 0;
+    padding:40px, 60px;
+    margin: 40px;
+}
+.learn{
+    background-color:#5ED3EB;
+    border-radius:15%;
+    border: 0;
+    padding:40px, 60px;
+    margin: 40px;
+}
+.involved{
+    background-color:#FFCD69;
+    border-radius:15%;
+    border: 0;
+    padding:40px, 60px;
+    margin: 40px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+h1{
+    font-family:'Chelsea Market', serif;
+}
+.main_body{
+    background-color:#DDB9A3;
+    color:white;
+    padding: 10px 20px;
+    text-align:center;
+}
+footer{
+    background-color:#F9E7DC;
+    padding:100px;
+
+}
+.header_image{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+header div{
+    display: inline-block;
+}
+.fire_camper{
+    height:100px;
+    margin: 0 auto;
+    display: block;
+}
+.text_under_pic{
+    display: block;
+    margin: 0 auto 40px;
+    width: 40%;
+    text-align:center;
+    
+}
+.text_under_pic2{
+    display: block;
+    margin: 0 auto 40px;
+    width: 42%;
+    text-align:center;
+}
+.footer_image{
+    height:200px;
+    width:100%;
+    overflow: hidden;
+
+}
